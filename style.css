@@ -7,7 +7,7 @@
 body {
     height: 100vh;
     display: grid;
-    grid-template-rows: 100px 75px 1fr;
+    grid-template-rows: 100px 75px 1fr 50px;
 }
 
 header {
@@ -30,4 +30,12 @@ section {
     padding: 20px;
     background-color: rgb(247, 229, 180);
 
+}
+
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
